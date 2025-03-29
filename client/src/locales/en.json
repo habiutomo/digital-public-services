@@ -1,0 +1,292 @@
+{
+  "app": {
+    "title": "Public Services Portal",
+    "description": "Access all government services on a single platform"
+  },
+  "common": {
+    "back": "Back",
+    "close": "Close",
+    "loading": "Loading",
+    "days": "days",
+    "success": "Success",
+    "error": "Error"
+  },
+  "footer": {
+    "copyright": "© {{year}} Public Services Portal. All Rights Reserved.",
+    "help": "Help",
+    "privacy_policy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "contact": "Contact"
+  },
+  "language": {
+    "current_short": "EN",
+    "toggle": "Toggle language",
+    "changed": "Language changed",
+    "changed_description": "The interface language has been changed to English"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "services": "Services",
+    "applications": "Applications",
+    "profile": "Profile",
+    "help": "Help",
+    "logout": "Logout",
+    "toggle_menu": "Toggle menu"
+  },
+  "user": {
+    "guest": "Guest",
+    "not_logged_in": "Not logged in"
+  },
+  "login": {
+    "title": "Login",
+    "subtitle": "Sign in to your account to access services",
+    "username": "Username",
+    "username_placeholder": "Enter your username",
+    "password": "Password",
+    "password_placeholder": "Enter your password",
+    "submit": "Sign In",
+    "logging_in": "Signing in...",
+    "error": "Login failed",
+    "error_description": "Invalid username or password",
+    "demo_credentials": "Demo: username 'budisantoso', password 'password123'",
+    "validation": {
+      "username_required": "Username must be at least 3 characters",
+      "password_required": "Password must be at least 6 characters"
+    }
+  },
+  "register": {
+    "title": "Register",
+    "subtitle": "Create a new account to access services",
+    "username": "Username",
+    "username_placeholder": "Choose a username",
+    "nik": "National ID Number (NIK)",
+    "nik_placeholder": "16-digit NIK number",
+    "full_name": "Full Name",
+    "full_name_placeholder": "Your full name as on official documents",
+    "password": "Password",
+    "password_placeholder": "Choose a password",
+    "confirm_password": "Confirm Password",
+    "confirm_password_placeholder": "Confirm your password",
+    "submit": "Register",
+    "success": "Registration successful",
+    "success_description": "Your account has been created. You can now log in.",
+    "validation": {
+      "username_required": "Username must be at least 3 characters",
+      "nik_required": "NIK is required",
+      "nik_length": "NIK must be exactly 16 digits",
+      "name_required": "Full name is required",
+      "password_required": "Password must be at least 6 characters",
+      "confirm_password_required": "Please confirm your password",
+      "passwords_must_match": "Passwords must match"
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome, {{name}}",
+    "subtitle": "Access all government services in one place",
+    "featured_services": "Featured Services",
+    "recent_applications": "Recent Applications"
+  },
+  "services": {
+    "title": "Public Services",
+    "subtitle": "Access all government services on a single platform",
+    "featured": "Featured Services",
+    "all": "All Services",
+    "view_all": "View All"
+  },
+  "service": {
+    "all_services": "All Services",
+    "apply_now": "Apply now",
+    "popular": "Popular"
+  },
+  "service_detail": {
+    "about": "About This Service",
+    "requirements": "Requirements",
+    "requirement_id": "Valid ID card (KTP)",
+    "requirement_photo": "Passport-sized photograph (3x4)",
+    "requirement_address": "Proof of address",
+    "requirement_fee": "Processing fee (if applicable)",
+    "process": "Application Process",
+    "process_1": "Fill out the application form with all required information",
+    "process_2": "Upload necessary documents",
+    "process_3": "Submit application and pay any required fees",
+    "process_4": "Track your application status and retrieve the document when ready",
+    "apply": "Apply for this Service",
+    "apply_description": "Complete the form to apply for this service",
+    "apply_button": "Apply Now",
+    "processing_time": "Processing Time",
+    "fee": "Fee",
+    "help": "Need Help?",
+    "live_chat": "Live Chat Support"
+  },
+  "service_modal": {
+    "instructions": "Please complete the form to apply for {{serviceName}}. Make sure all information is accurate.",
+    "step1": "Personal Info",
+    "step2": "Address",
+    "step3": "Documents",
+    "step4": "Confirmation"
+  },
+  "applications": {
+    "title": "My Applications",
+    "subtitle": "Track the status of your service applications",
+    "search": "Search",
+    "search_placeholder": "Search by application number or service",
+    "filter_status": "Filter by Status",
+    "all_statuses": "All Statuses",
+    "total_applications": "Total Applications",
+    "completed": "Completed",
+    "in_progress": "In Progress"
+  },
+  "application": {
+    "status": {
+      "pending": "Pending",
+      "processing": "In Process",
+      "completed": "Completed",
+      "revision": "Revision Required",
+      "rejected": "Rejected"
+    },
+    "table": {
+      "number": "Application Number",
+      "service": "Service",
+      "date": "Submission Date",
+      "status": "Status",
+      "action": "Action",
+      "view_details": "View Details"
+    },
+    "no_applications_title": "No Applications Found",
+    "no_applications_description": "You haven't submitted any applications yet.",
+    "success_title": "Application Submitted",
+    "success_message": "Your application has been submitted successfully.",
+    "error_title": "Submission Failed",
+    "error_message": "There was a problem submitting your application. Please try again."
+  },
+  "notifications": {
+    "title": "Notifications",
+    "empty": "No notifications to display",
+    "mark_all_read": "Mark all as read"
+  },
+  "profile": {
+    "title": "My Profile",
+    "subtitle": "View and manage your account information",
+    "personal_information": "Personal Information",
+    "security": "Security",
+    "edit_profile": "Edit Profile",
+    "edit_profile_description": "Update your personal information",
+    "change_password": "Change Password",
+    "change_password_description": "Update your password to keep your account secure",
+    "current_password": "Current Password",
+    "new_password": "New Password",
+    "confirm_password": "Confirm New Password",
+    "password_requirements": "Password must be at least 6 characters",
+    "update_password": "Update Password",
+    "updating_password": "Updating Password...",
+    "save_changes": "Save Changes",
+    "saving": "Saving...",
+    "update_success": "Profile Updated",
+    "profile_updated": "Your profile information has been updated successfully.",
+    "update_error": "Update Failed",
+    "update_error_description": "There was an error updating your profile. Please try again.",
+    "password_update_success": "Password Updated",
+    "password_updated": "Your password has been updated successfully.",
+    "password_update_error": "Password Update Failed",
+    "password_update_error_description": "There was an error updating your password. Please try again.",
+    "validation": {
+      "name_required": "Name is required",
+      "email_invalid": "Please enter a valid email address",
+      "current_password_required": "Current password is required",
+      "new_password_length": "New password must be at least 6 characters",
+      "confirm_password_required": "Please confirm your new password",
+      "passwords_must_match": "Passwords must match"
+    }
+  },
+  "search": {
+    "placeholder": "Search services..."
+  },
+  "help": {
+    "title": "Help & Support",
+    "subtitle": "Get assistance with using our services",
+    "support_center": "Support Center",
+    "support_center_description": "Call our customer service for assistance",
+    "live_chat": "Live Chat",
+    "live_chat_description": "Chat with our support team in real-time",
+    "start_chat": "Start Chat",
+    "service_centers": "Service Centers",
+    "service_centers_description": "Find the nearest government service center",
+    "find_closest": "Find Closest",
+    "message_sent": "Message Sent",
+    "message_sent_description": "Your message has been sent to our support team. We'll get back to you soon.",
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find answers to common questions",
+      "search_placeholder": "Search in FAQs...",
+      "no_results": "No matching questions found",
+      "question1": "How do I apply for an e-KTP?",
+      "answer1": "To apply for an e-KTP (electronic ID card), log in to your account, navigate to the Services section, select the e-KTP service, and follow the steps to complete your application. You'll need to provide your personal information and upload required documents.",
+      "question2": "How long does it take to process my application?",
+      "answer2": "Processing times vary by service. Most applications are processed within 3-5 business days, but some services may take longer. You can check the estimated processing time for each service on its details page.",
+      "question3": "How can I track the status of my application?",
+      "answer3": "You can track your application status by going to the Applications section in your account. There, you'll see a list of all your applications and their current status. You'll also receive notifications when there are updates to your application.",
+      "question4": "What documents do I need to upload?",
+      "answer4": "Required documents vary by service. Common requirements include a scanned copy of your ID card (KTP), passport-sized photo, and proof of address. Specific requirements for each service are listed on the service application form.",
+      "question5": "How do I update my personal information?",
+      "answer5": "To update your personal information, go to the Profile section in your account. Click on the Edit Profile tab where you can update your details. After making changes, click Save Changes to update your information."
+    },
+    "contact_us": {
+      "title": "Contact Us",
+      "subtitle": "Send us a message and we'll get back to you",
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message"
+    }
+  },
+  "form": {
+    "nik": "NIK (National ID Number)",
+    "nik_placeholder": "Enter your 16-digit NIK",
+    "nik_help": "NIK consists of 16 digits",
+    "full_name": "Full Name",
+    "full_name_placeholder": "Enter your full name as on official documents",
+    "birth_place": "Place of Birth",
+    "birth_place_placeholder": "City of birth",
+    "birth_date": "Date of Birth",
+    "birth_info": "Place & Date of Birth",
+    "gender": "Gender",
+    "gender_placeholder": "Select gender",
+    "gender_male": "Male",
+    "gender_female": "Female",
+    "religion": "Religion",
+    "religion_placeholder": "Select religion",
+    "religion_islam": "Islam",
+    "religion_christian": "Protestant Christian",
+    "religion_catholic": "Catholic",
+    "religion_hindu": "Hindu",
+    "religion_buddhist": "Buddhist",
+    "religion_confucian": "Confucian",
+    "religion_other": "Other",
+    "marital_status": "Marital Status",
+    "marital_status_placeholder": "Select status",
+    "marital_status_single": "Single",
+    "marital_status_married": "Married",
+    "marital_status_divorced": "Divorced",
+    "marital_status_widowed": "Widowed",
+    "address": "Address",
+    "address_placeholder": "Your complete residential address",
+    "contact": "Contact",
+    "phone": "Phone Number",
+    "phone_placeholder": "Mobile phone number",
+    "email": "Email Address",
+    "email_placeholder": "Your email address",
+    "upload_document": "Upload Documents",
+    "upload_browse": "Browse",
+    "upload_drag": "or drag and drop",
+    "upload_formats": "PDF, JPG, PNG up to 2MB",
+    "confirmation_title": "Review Your Information",
+    "confirmation_description": "Please review your information before submitting the application.",
+    "agree_terms": "I agree to the terms and conditions of this service",
+    "previous": "Previous",
+    "next": "Next",
+    "cancel": "Cancel",
+    "submit": "Submit Application",
+    "submitting": "Submitting..."
+  }
+}

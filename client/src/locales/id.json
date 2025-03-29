@@ -1,0 +1,292 @@
+{
+  "app": {
+    "title": "Portal Layanan Publik",
+    "description": "Akses semua layanan pemerintah dalam satu platform"
+  },
+  "common": {
+    "back": "Kembali",
+    "close": "Tutup",
+    "loading": "Memuat",
+    "days": "hari",
+    "success": "Berhasil",
+    "error": "Kesalahan"
+  },
+  "footer": {
+    "copyright": "© {{year}} Portal Layanan Publik. Hak Cipta Dilindungi.",
+    "help": "Bantuan",
+    "privacy_policy": "Kebijakan Privasi",
+    "terms": "Syarat & Ketentuan",
+    "contact": "Kontak"
+  },
+  "language": {
+    "current_short": "ID",
+    "toggle": "Ubah bahasa",
+    "changed": "Bahasa diubah",
+    "changed_description": "Bahasa antarmuka telah diubah ke Bahasa Indonesia"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "services": "Layanan",
+    "applications": "Permohonan",
+    "profile": "Profil",
+    "help": "Bantuan",
+    "logout": "Keluar",
+    "toggle_menu": "Buka menu"
+  },
+  "user": {
+    "guest": "Tamu",
+    "not_logged_in": "Belum masuk"
+  },
+  "login": {
+    "title": "Masuk",
+    "subtitle": "Masuk ke akun Anda untuk mengakses layanan",
+    "username": "Nama Pengguna",
+    "username_placeholder": "Masukkan nama pengguna",
+    "password": "Kata Sandi",
+    "password_placeholder": "Masukkan kata sandi",
+    "submit": "Masuk",
+    "logging_in": "Sedang masuk...",
+    "error": "Gagal masuk",
+    "error_description": "Nama pengguna atau kata sandi tidak valid",
+    "demo_credentials": "Demo: nama pengguna 'budisantoso', kata sandi 'password123'",
+    "validation": {
+      "username_required": "Nama pengguna minimal 3 karakter",
+      "password_required": "Kata sandi minimal 6 karakter"
+    }
+  },
+  "register": {
+    "title": "Daftar",
+    "subtitle": "Buat akun baru untuk mengakses layanan",
+    "username": "Nama Pengguna",
+    "username_placeholder": "Pilih nama pengguna",
+    "nik": "Nomor Induk Kependudukan (NIK)",
+    "nik_placeholder": "NIK 16 digit",
+    "full_name": "Nama Lengkap",
+    "full_name_placeholder": "Nama lengkap sesuai dokumen resmi",
+    "password": "Kata Sandi",
+    "password_placeholder": "Pilih kata sandi",
+    "confirm_password": "Konfirmasi Kata Sandi",
+    "confirm_password_placeholder": "Konfirmasi kata sandi Anda",
+    "submit": "Daftar",
+    "success": "Pendaftaran berhasil",
+    "success_description": "Akun Anda telah dibuat. Anda sekarang dapat masuk.",
+    "validation": {
+      "username_required": "Nama pengguna minimal 3 karakter",
+      "nik_required": "NIK wajib diisi",
+      "nik_length": "NIK harus tepat 16 digit",
+      "name_required": "Nama lengkap wajib diisi",
+      "password_required": "Kata sandi minimal 6 karakter",
+      "confirm_password_required": "Konfirmasi kata sandi Anda",
+      "passwords_must_match": "Kata sandi harus sama"
+    }
+  },
+  "dashboard": {
+    "welcome": "Selamat datang, {{name}}",
+    "subtitle": "Akses semua layanan pemerintah dalam satu tempat",
+    "featured_services": "Layanan Utama",
+    "recent_applications": "Permohonan Terbaru"
+  },
+  "services": {
+    "title": "Layanan Publik",
+    "subtitle": "Akses semua layanan pemerintah dalam satu platform",
+    "featured": "Layanan Utama",
+    "all": "Semua Layanan",
+    "view_all": "Lihat Semua"
+  },
+  "service": {
+    "all_services": "Semua Layanan",
+    "apply_now": "Ajukan sekarang",
+    "popular": "Populer"
+  },
+  "service_detail": {
+    "about": "Tentang Layanan Ini",
+    "requirements": "Persyaratan",
+    "requirement_id": "Kartu identitas (KTP) yang masih berlaku",
+    "requirement_photo": "Foto ukuran paspor (3x4)",
+    "requirement_address": "Bukti alamat",
+    "requirement_fee": "Biaya administrasi (jika ada)",
+    "process": "Proses Permohonan",
+    "process_1": "Isi formulir permohonan dengan semua informasi yang diperlukan",
+    "process_2": "Unggah dokumen yang diperlukan",
+    "process_3": "Kirim permohonan dan bayar biaya yang diperlukan",
+    "process_4": "Pantau status permohonan dan ambil dokumen saat siap",
+    "apply": "Ajukan Layanan Ini",
+    "apply_description": "Lengkapi formulir untuk mengajukan layanan ini",
+    "apply_button": "Ajukan Sekarang",
+    "processing_time": "Waktu Pemrosesan",
+    "fee": "Biaya",
+    "help": "Butuh Bantuan?",
+    "live_chat": "Dukungan Live Chat"
+  },
+  "service_modal": {
+    "instructions": "Silakan lengkapi formulir untuk mengajukan {{serviceName}}. Pastikan semua informasi akurat.",
+    "step1": "Data Diri",
+    "step2": "Alamat",
+    "step3": "Dokumen",
+    "step4": "Konfirmasi"
+  },
+  "applications": {
+    "title": "Permohonan Saya",
+    "subtitle": "Pantau status permohonan layanan Anda",
+    "search": "Cari",
+    "search_placeholder": "Cari berdasarkan nomor permohonan atau layanan",
+    "filter_status": "Filter berdasarkan Status",
+    "all_statuses": "Semua Status",
+    "total_applications": "Total Permohonan",
+    "completed": "Selesai",
+    "in_progress": "Dalam Proses"
+  },
+  "application": {
+    "status": {
+      "pending": "Menunggu",
+      "processing": "Dalam Proses",
+      "completed": "Selesai",
+      "revision": "Revisi Diperlukan",
+      "rejected": "Ditolak"
+    },
+    "table": {
+      "number": "Nomor Permohonan",
+      "service": "Layanan",
+      "date": "Tanggal Pengajuan",
+      "status": "Status",
+      "action": "Aksi",
+      "view_details": "Lihat Detail"
+    },
+    "no_applications_title": "Tidak Ada Permohonan",
+    "no_applications_description": "Anda belum mengajukan permohonan apapun.",
+    "success_title": "Permohonan Terkirim",
+    "success_message": "Permohonan Anda telah berhasil diajukan.",
+    "error_title": "Pengajuan Gagal",
+    "error_message": "Terjadi masalah saat mengajukan permohonan Anda. Silakan coba lagi."
+  },
+  "notifications": {
+    "title": "Notifikasi",
+    "empty": "Tidak ada notifikasi untuk ditampilkan",
+    "mark_all_read": "Tandai semua sudah dibaca"
+  },
+  "profile": {
+    "title": "Profil Saya",
+    "subtitle": "Lihat dan kelola informasi akun Anda",
+    "personal_information": "Informasi Pribadi",
+    "security": "Keamanan",
+    "edit_profile": "Edit Profil",
+    "edit_profile_description": "Perbarui informasi pribadi Anda",
+    "change_password": "Ubah Kata Sandi",
+    "change_password_description": "Perbarui kata sandi Anda untuk menjaga keamanan akun",
+    "current_password": "Kata Sandi Saat Ini",
+    "new_password": "Kata Sandi Baru",
+    "confirm_password": "Konfirmasi Kata Sandi Baru",
+    "password_requirements": "Kata sandi minimal 6 karakter",
+    "update_password": "Perbarui Kata Sandi",
+    "updating_password": "Memperbarui Kata Sandi...",
+    "save_changes": "Simpan Perubahan",
+    "saving": "Menyimpan...",
+    "update_success": "Profil Diperbarui",
+    "profile_updated": "Informasi profil Anda telah berhasil diperbarui.",
+    "update_error": "Pembaruan Gagal",
+    "update_error_description": "Terjadi kesalahan saat memperbarui profil Anda. Silakan coba lagi.",
+    "password_update_success": "Kata Sandi Diperbarui",
+    "password_updated": "Kata sandi Anda telah berhasil diperbarui.",
+    "password_update_error": "Pembaruan Kata Sandi Gagal",
+    "password_update_error_description": "Terjadi kesalahan saat memperbarui kata sandi Anda. Silakan coba lagi.",
+    "validation": {
+      "name_required": "Nama wajib diisi",
+      "email_invalid": "Masukkan alamat email yang valid",
+      "current_password_required": "Kata sandi saat ini wajib diisi",
+      "new_password_length": "Kata sandi baru minimal 6 karakter",
+      "confirm_password_required": "Konfirmasi kata sandi baru Anda",
+      "passwords_must_match": "Kata sandi harus sama"
+    }
+  },
+  "search": {
+    "placeholder": "Cari layanan..."
+  },
+  "help": {
+    "title": "Bantuan & Dukungan",
+    "subtitle": "Dapatkan bantuan untuk menggunakan layanan kami",
+    "support_center": "Pusat Dukungan",
+    "support_center_description": "Hubungi layanan pelanggan kami untuk bantuan",
+    "live_chat": "Live Chat",
+    "live_chat_description": "Chat dengan tim dukungan kami secara real-time",
+    "start_chat": "Mulai Chat",
+    "service_centers": "Pusat Layanan",
+    "service_centers_description": "Temukan pusat layanan pemerintah terdekat",
+    "find_closest": "Temukan Terdekat",
+    "message_sent": "Pesan Terkirim",
+    "message_sent_description": "Pesan Anda telah dikirim ke tim dukungan kami. Kami akan segera menghubungi Anda.",
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "subtitle": "Temukan jawaban untuk pertanyaan umum",
+      "search_placeholder": "Cari di FAQ...",
+      "no_results": "Tidak ditemukan pertanyaan yang cocok",
+      "question1": "Bagaimana cara mengajukan e-KTP?",
+      "answer1": "Untuk mengajukan e-KTP (kartu identitas elektronik), masuk ke akun Anda, navigasikan ke bagian Layanan, pilih layanan e-KTP, dan ikuti langkah-langkah untuk menyelesaikan permohonan Anda. Anda perlu memberikan informasi pribadi dan mengunggah dokumen yang diperlukan.",
+      "question2": "Berapa lama waktu pemrosesan permohonan saya?",
+      "answer2": "Waktu pemrosesan bervariasi sesuai layanan. Sebagian besar permohonan diproses dalam 3-5 hari kerja, tetapi beberapa layanan mungkin memerlukan waktu lebih lama. Anda dapat memeriksa estimasi waktu pemrosesan untuk setiap layanan di halaman detailnya.",
+      "question3": "Bagaimana cara melacak status permohonan saya?",
+      "answer3": "Anda dapat melacak status permohonan dengan membuka bagian Permohonan di akun Anda. Di sana, Anda akan melihat daftar semua permohonan Anda dan status terkininya. Anda juga akan menerima notifikasi ketika ada pembaruan pada permohonan Anda.",
+      "question4": "Dokumen apa yang perlu saya unggah?",
+      "answer4": "Dokumen yang diperlukan bervariasi sesuai layanan. Persyaratan umum meliputi salinan kartu identitas (KTP), foto ukuran paspor, dan bukti alamat. Persyaratan spesifik untuk setiap layanan tercantum pada formulir permohonan layanan.",
+      "question5": "Bagaimana cara memperbarui informasi pribadi saya?",
+      "answer5": "Untuk memperbarui informasi pribadi Anda, buka bagian Profil di akun Anda. Klik pada tab Edit Profil di mana Anda dapat memperbarui detail Anda. Setelah melakukan perubahan, klik Simpan Perubahan untuk memperbarui informasi Anda."
+    },
+    "contact_us": {
+      "title": "Hubungi Kami",
+      "subtitle": "Kirim pesan kepada kami dan kami akan menghubungi Anda",
+      "name": "Nama",
+      "email": "Email",
+      "subject": "Subjek",
+      "message": "Pesan",
+      "send": "Kirim Pesan"
+    }
+  },
+  "form": {
+    "nik": "NIK (Nomor Induk Kependudukan)",
+    "nik_placeholder": "Masukkan NIK 16 digit Anda",
+    "nik_help": "NIK terdiri dari 16 digit angka",
+    "full_name": "Nama Lengkap",
+    "full_name_placeholder": "Masukkan nama lengkap sesuai dokumen resmi",
+    "birth_place": "Tempat Lahir",
+    "birth_place_placeholder": "Kota tempat lahir",
+    "birth_date": "Tanggal Lahir",
+    "birth_info": "Tempat & Tanggal Lahir",
+    "gender": "Jenis Kelamin",
+    "gender_placeholder": "Pilih jenis kelamin",
+    "gender_male": "Laki-laki",
+    "gender_female": "Perempuan",
+    "religion": "Agama",
+    "religion_placeholder": "Pilih agama",
+    "religion_islam": "Islam",
+    "religion_christian": "Kristen",
+    "religion_catholic": "Katolik",
+    "religion_hindu": "Hindu",
+    "religion_buddhist": "Buddha",
+    "religion_confucian": "Konghucu",
+    "religion_other": "Lainnya",
+    "marital_status": "Status Perkawinan",
+    "marital_status_placeholder": "Pilih status",
+    "marital_status_single": "Belum Kawin",
+    "marital_status_married": "Kawin",
+    "marital_status_divorced": "Cerai Hidup",
+    "marital_status_widowed": "Cerai Mati",
+    "address": "Alamat",
+    "address_placeholder": "Alamat tempat tinggal lengkap Anda",
+    "contact": "Kontak",
+    "phone": "Nomor Telepon",
+    "phone_placeholder": "Nomor telepon genggam",
+    "email": "Alamat Email",
+    "email_placeholder": "Alamat email Anda",
+    "upload_document": "Unggah Dokumen",
+    "upload_browse": "Pilih file",
+    "upload_drag": "atau seret dan lepas",
+    "upload_formats": "PDF, JPG, PNG hingga 2MB",
+    "confirmation_title": "Tinjau Informasi Anda",
+    "confirmation_description": "Silakan tinjau informasi Anda sebelum mengirimkan permohonan.",
+    "agree_terms": "Saya menyetujui syarat dan ketentuan layanan ini",
+    "previous": "Sebelumnya",
+    "next": "Lanjutkan",
+    "cancel": "Batal",
+    "submit": "Kirim Permohonan",
+    "submitting": "Mengirim..."
+  }
+}
