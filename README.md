@@ -3,6 +3,7 @@
 A centralized digital platform for accessing various government public services with a focus on user-friendly interface and service request functionality.
 
 ![Portal Layanan Publik](/generated-icon.png)
+![Portal Layanan Publik](1.jpg)
 
 ## Overview
 
